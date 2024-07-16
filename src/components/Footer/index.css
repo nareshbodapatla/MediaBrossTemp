@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+}
+.footer-container {
+    background-color: #F1F1FF;
+    display: flex;
+    font-family: 'Poppins';
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.footer-content {
+    margin-left: 50px;
+}
+
+.footer-head {
+    color: #000000;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.footer-desc {
+    color: #082354;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.footer-address {
+    color: #082354;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.footer-content-right {
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+.footer-headings {
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+}
+
+.footer-heading {
+    margin-right: 80px;
+    color: #082354;
+    font-size: 30px;
+}
+
+.footer-img-container {
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.footer-img {
+    height: 40px;
+    width: 40px;
+    margin-right: 40px;
+}
+
+@media (max-width: 1200px) {
+    .footer-container {
+        padding-top: 40px;
+    }
+    .footer-content,
+    .footer-content-right {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .footer-headings {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+    }
+    .footer-content,
+    .footer-content-right {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .footer-head {
+        font-size: 40px;
+    }
+    .footer-desc,
+    .footer-address {
+        font-size: 18px;
+    }
+    .footer-heading {
+        font-size: 24px;
+        margin-right: 40px;
+    }
+    .footer-img-container {
+        margin-left: 0;
+    }
+    .footer-img {
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-container {
+        padding-top: 20px;
+    }
+    .footer-content,
+    .footer-content-right {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .footer-head {
+        font-size: 30px;
+    }
+    .footer-desc,
+    .footer-address {
+        font-size: 16px;
+    }
+    .footer-heading {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    .footer-img-container {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .footer-img {
+        height: 20px;
+        width: 20px;
+        margin-right: 10px;
+    }
+}

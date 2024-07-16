@@ -1,0 +1,192 @@
+.ourexprience-container{
+    font-family: 'Poppins';
+    height: cover;
+    margin: 0;
+    background-color: #F1F1FF;
+    color: #082354;
+    padding-bottom: 40px;
+}
+
+.ourexp-head-container{
+    padding: 20px;
+}
+
+.companies-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ourexperience-subcontainer{
+    padding: 20px;
+}
+
+.ourexp-heading{
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.ourexp-para{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.exp-images{
+    height: 100%;
+    width: 120px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.ourexp-enquire{
+    background-color: #0157F0;
+    border-radius: 20px;
+    width: 90%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourexp-enquire-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.enquire-text{
+    color: #ffffff;
+    font-size: 28px;
+    margin: 30px;
+}
+
+.enquire-button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin: 30px;
+    color: #0157F0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ourexp-text{
+    width: 50%;
+    text-align: center;
+    margin-left: 50px;
+}
+
+@media (max-width: 1200px) {
+    .ourexp-heading {
+        font-size: 1.8em;
+        margin-left: 20px;
+    }
+    
+    .ourexp-para {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .enquire-text {
+        font-size: 24px;
+        margin: 20px;
+    }
+
+    .enquire-button {
+        width: 140px;
+        height: 35px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .companies-container {
+        flex-direction: column;
+    }
+
+    .ourexp-heading {
+        font-size: 1.6em;
+        margin-left: 10px;
+        text-align: center;
+    }
+    
+    .ourexp-para {
+        font-size: 16px;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .enquire-text {
+        font-size: 22px;
+        margin: 15px;
+    }
+
+    .enquire-button {
+        width: 130px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .ourexp-text {
+        width: 80%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .ourexp-enquire {
+        height: 130px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ourexprience-container {
+        padding: 10px;
+    }
+
+    .ourexp-heading {
+        font-size: 1.4em;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .ourexp-para {
+        font-size: 14px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .exp-images {
+        width: 100px;
+        margin: 5px;
+    }
+
+    .enquire-text {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .enquire-button {
+        width: 120px;
+        height: 25px;
+        font-size: 10px;
+    }
+
+    .ourexp-text {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .ourexp-enquire {
+        height: 110px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

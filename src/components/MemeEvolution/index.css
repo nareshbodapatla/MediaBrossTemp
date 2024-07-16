@@ -1,0 +1,30 @@
+
+
+.memes{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    background-color: #F1F1FF;
+    background-size: cover;
+    font-family: 'Poppins';
+}
+
+.memes-heading{
+    padding: 10px;
+    color: #082354;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.memes-description{
+    padding: 10px;
+    color: #082354;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 50px;
+}
