@@ -1,6 +1,6 @@
 import './index.css';
 import "@fontsource/poppins";
-import gif from '../../gif/ColorfulIllustratedIndianDiversityInstagramPost.gif';
+import gif from '../../gif/Graphic Design.gif';
 
 function Home() {
     return (
@@ -28,7 +28,6 @@ function Home() {
                         <div className='comedy-img-con'>
                             <img src={gif} alt='logo' className='comedy-img'/>
                         </div>
-                        <img src='https://res.cloudinary.com/dttnhad6r/image/upload/v1720792527/Untitled_r3thi1.png' alt='logo' style={{ height: '40px', width: '40px', alignSelf: 'end', marginTop: '10px' }} />
                     </div>
                 </div>
             </div>

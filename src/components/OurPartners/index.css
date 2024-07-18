@@ -1,98 +1,114 @@
-.ourpartner-container{
-    height: cover;
+.ourpartner-container {
+    height: 100vh;
     background-color: #F1F1FF;
     color: #082354;
 }
 
-.ourpartner-heading{
+.ourpartner-heading {
     padding: 30px;
+    text-align: center;
 }
 
-.ourpartner-subcontainer{
+.ourpartner-subcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* Ensure overflow is hidden to clip the animation */
+}
+
+.marquee {
+    display: flex;
+    width: 70%;
+    overflow: hidden;
+    user-select: none;
+    animation: forwards 30s linear infinite;
+
+    mask-image: linear-gradient(to right,
+            hsl(0 0% 0% / 0),
+            hsl(0 0% 0% / 1) 10%,
+            hsl(0 0% 0% / 1) 90%,
+            hsl(0 0% 0% / 0));
+}
+
+.marquee-content {
+    display: flex;
+    animation: marquee 30s linear infinite;
+}
+
+.marquee-content-b {
+    display: flex;
+    animation: marquee 30s linear infinite;
+    animation-direction: reverse;
+    animation-delay: -3s;
+}
+
+
+@keyframes marquee {
+    from {
+        left: translateX(0);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+}
+
+.followers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.followers-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-}
-
-
-.followers-a{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.followers-b{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.followers-c{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.followers-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
     background-color: #ffffff;
     padding: 10px;
     border-radius: 60px;
     border: none;
-    width: 200px;
+    width: 220px;
+    height: 80px;
 }
 
-
-.follower-img{
-    height: 30px;
-    width: 30px;
-    border-radius: 20px;
-    margin: 5px;
+.follower-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
 }
 
-.followers-para{
+.followers-para {
     font-size: 12px;
     color: #8B8B8B;
 }
-span{
+
+span {
     color: #0157F0;
     font-weight: bold;
 }
-
-.follower-main-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
 
 /* Responsive Styles */
 @media (max-width: 1200px) {
     .subcont-1 {
         width: 45%;
     }
-    
+
     .circle-container {
         width: 250px;
         height: 250px;
     }
-    
+
     .circle-item {
         width: 70px;
         height: 70px;
         font-size: 8px;
     }
-    
+
     .globe {
         width: 80px;
         height: 80px;
@@ -104,22 +120,22 @@ span{
         flex-direction: column;
         align-items: center;
     }
-    
+
     .subcont-1 {
         width: 90%;
     }
-    
+
     .circle-container {
         width: 200px;
         height: 200px;
     }
-    
+
     .circle-item {
         width: 60px;
         height: 60px;
         font-size: 7px;
     }
-    
+
     .globe {
         width: 70px;
         height: 70px;
@@ -139,13 +155,13 @@ span{
         width: 150px;
         height: 150px;
     }
-    
+
     .circle-item {
         width: 50px;
         height: 50px;
         font-size: 6px;
     }
-    
+
     .globe {
         width: 50px;
         height: 50px;

@@ -1,4 +1,4 @@
-.ourexprience-container{
+.ourexprience-container {
     font-family: 'Poppins';
     height: cover;
     margin: 0;
@@ -7,39 +7,9 @@
     padding-bottom: 40px;
 }
 
-.ourexp-head-container{
-    padding: 20px;
-}
 
-.companies-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
 
-.ourexperience-subcontainer{
-    padding: 20px;
-}
-
-.ourexp-heading{
-    margin-left: 30px;
-    font-weight: bold;
-}
-
-.ourexp-para{
-    font-size: 20px;
-    margin-left: 30px;
-}
-
-.exp-images{
-    height: 100%;
-    width: 120px;
-    margin: 10px;
-    border-radius: 10px;
-}
-
-.ourexp-enquire{
+.ourexp-enquire {
     background-color: #0157F0;
     border-radius: 20px;
     width: 90%;
@@ -50,21 +20,89 @@
     align-items: center;
 }
 
-.ourexp-enquire-container{
+.ourexp-enquire-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 40px;
+    position: relative;
 }
 
-.enquire-text{
+.emoji-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    /* Ensure emojis don't block interactions */
+}
+
+.emoji {
+    position: absolute;
+    font-size: 24px;
+    /* Adjust size as needed */
+}
+
+.emoji:nth-child(1) {
+    top: 10%;
+    left: 20%;
+}
+
+.emoji:nth-child(2) {
+    top: 30%;
+    left: 50%;
+}
+
+.emoji:nth-child(3) {
+    top: 70%;
+    left: 70%;
+}
+
+.emoji:nth-child(4) {
+    top: 70%;
+    left: 20%;
+}
+
+.emoji:nth-child(5) {
+    top: 20%;
+    left: 10%;
+}
+
+.emoji:nth-child(6) {
+    top: 70%;
+    left: 90%;
+}
+
+
+.emoji:nth-child(7) {
+    top: 60%;
+    left: 60%;
+}
+
+.emoji:nth-child(8) {
+    top: 10%;
+    left: 80%;
+}
+
+.emoji:nth-child(9) {
+    top: 10%;
+    left: 55%;
+}
+
+.emoji:nth-child(10) {
+    top: 15%;
+    left: 92%;
+}
+
+.enquire-text {
     color: #ffffff;
     font-size: 28px;
     margin: 30px;
 }
 
-.enquire-button{
+.enquire-button {
     width: 150px;
     height: 40px;
     border-radius: 20px;
@@ -75,7 +113,7 @@
     font-size: 16px;
 }
 
-.ourexp-text{
+.ourexp-text {
     width: 50%;
     text-align: center;
     margin-left: 50px;
@@ -86,7 +124,7 @@
         font-size: 1.8em;
         margin-left: 20px;
     }
-    
+
     .ourexp-para {
         font-size: 18px;
         margin-left: 20px;
@@ -114,7 +152,7 @@
         margin-left: 10px;
         text-align: center;
     }
-    
+
     .ourexp-para {
         font-size: 16px;
         margin-left: 10px;
@@ -153,7 +191,7 @@
         margin-left: 0;
         text-align: center;
     }
-    
+
     .ourexp-para {
         font-size: 14px;
         margin-left: 0;
