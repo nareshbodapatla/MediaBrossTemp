@@ -34,7 +34,7 @@ const NextArrow = (props) => {
   return (
     <div
       className={className}
-      style={{ ...style,display: 'block',height:'45px', width:'45px', background: '#0157F0', borderRadius: '25px', marginTop: '60px', right: '10px', zIndex: 2 }}
+      style={{ ...style,display: 'block',height:'45px', width:'45px', background: '#0157F0', borderRadius: '25px', marginTop: '40px', right: '10px', zIndex: 2 }}
       onClick={onClick}
     />
   );
@@ -45,7 +45,7 @@ const PrevArrow = (props) => {
   return (
     <div
       className={className}
-      style={{ ...style, display: 'block', height:'45px', width:'45px', background: '#0157F0', borderRadius: '25px', marginTop: '60px', left: '10px', zIndex: 2 }}
+      style={{ ...style, display: 'block', height:'45px', width:'45px', background: '#0157F0', borderRadius: '25px', marginTop: '40px', left: '10px', zIndex: 2 }}
       onClick={onClick}
     />
   );
@@ -89,7 +89,7 @@ const ContinuousCarousel = () => {
             <div key={each.id} className='img-container'>
                 <div className='line-container'>
                 <div className='date-container'>{each.date}</div>
-                <div className='dashed-line'>---------------</div>
+                <div className='dashed-line'>-------------------------</div>
                 </div>
                 <h1 className='caption'>{each.alt}</h1>
                 <img src={each.img} alt={each.alt} className='img-logo'/>

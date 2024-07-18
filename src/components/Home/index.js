@@ -18,7 +18,8 @@ function Home() {
                 </div>
                 <div className='home-page-content'>
                     <div>
-                        <img src='https://res.cloudinary.com/dttnhad6r/image/upload/v1720789290/Untitled_tjhf7x.png' alt='logo' className='play-btn' />
+                        <img src='https://res.cloudinary.com/dttnhad6r/image/upload/v1721321096/Screenshot_2024-07-18_221224_qasxjf.png' alt='logo' className='media' />
+                        <img src='https://res.cloudinary.com/dttnhad6r/image/upload/v1721312819/Untitled_tjmre4.png' alt='logo' className='play-btn' />
                         <h1 className='hc-heading'>IT'S TIME TO <br />LIVE <span style={{ color: '#0157F0' }}>CREATIVELY</span></h1>
                         <hr className='hr-line' />
                         <h2 className='hc-desc'>Serving Content To <span style={{ color: '#0157F0', fontWeight:'bold'}}>97 Million</span> Followers</h2>

@@ -55,10 +55,39 @@
     padding-bottom: 100px;
 }
 
+.media{
+    margin-top: 5px;
+    width: 200px;
+    height: 200px;
+    animation: rotateImage 8s linear infinite;
+}
+
+@keyframes rotateImage {
+    100% {
+      transform: rotate(0deg);
+    }
+    0% {
+      transform: rotate(360deg);
+    }
+  }
+
 .play-btn {
-    height: 100px;
-    width: 100px;
-    margin: 10px;
+    animation: zoom 2s infinite;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 85px;
+    position: absolute;
+    left: 115px;
+    bottom: 408px;
+}
+
+@keyframes zoom {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
 }
 
 .hc-heading {
